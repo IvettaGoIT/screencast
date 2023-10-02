@@ -18,6 +18,11 @@ export const Title = styled.h1`
     0 0 40px #00baff,
     0 0 80px #00baff;
 `;
+export const Subtitle = styled.p`
+  margin: 0;
+  margin-right: 10px;
+  color: red;
+`;
 export const StyledImage = styled.img`
   width: 40px;
   height: 40px;
