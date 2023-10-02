@@ -113,7 +113,7 @@ Error generating stack: `+o.message+`
   justify-content: center;
   align-items: center;
   padding-top: 500px;
-`;Ne.h1`
+`,fg=Ne.h1`
   margin: 0;
   margin-right: 10px;
   color: #ffffff;
@@ -127,16 +127,16 @@ Error generating stack: `+o.message+`
   margin: 0;
   margin-right: 10px;
   color: red;
-`;const fg=Ne.img`
+`;const dg=Ne.img`
   width: 40px;
   height: 40px;
   object-fit: cover;
-`,Ip="/react_vite/assets/example-def0f7cb.png",dg=()=>z.jsx(cg,{children:z.jsx(fg,{src:Ip,alt:"Example"})}),pg=Ne.div`
+`,Ip="/react_vite/assets/example-def0f7cb.png",pg=()=>z.jsxs(cg,{children:[z.jsx(fg,{children:"First Page"}),z.jsx(dg,{src:Ip,alt:"Example"})]}),hg=Ne.div`
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 500px;
-`,hg=Ne.div`
+`,mg=Ne.div`
   text-align: center;
 `;Ne.h1`
   color: #ffffff;
@@ -146,7 +146,7 @@ Error generating stack: `+o.message+`
     0 0 20px #00baff,
     0 0 40px #00baff,
     0 0 80px #00baff;
-`;const mg=Ne(Jc)`
+`;const vg=Ne(Jc)`
   padding: 8px 16px;
   color: #ffffff; /* White text color */
   text-shadow:
@@ -169,14 +169,14 @@ Error generating stack: `+o.message+`
       0 0 40px #00baff,
       0 0 80px #00baff;
   }
-`,vg=()=>z.jsx(pg,{children:z.jsx(hg,{children:z.jsx(mg,{to:"/second/5",children:"Half"})})}),gg=Ne.h1`
+`,gg=()=>z.jsx(hg,{children:z.jsx(mg,{children:z.jsx(vg,{to:"/second/5",children:"Half"})})}),yg=Ne.h1`
   color: #000000;
-`,yg=()=>z.jsx(gg,{children:"Half Page"}),wg=Ne.div`
+`,wg=()=>z.jsx(yg,{children:"Half Page"}),Sg=Ne.div`
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 500px;
-`,Sg=Ne.h1`
+`,xg=Ne.h1`
   color: #ffffff;
   text-shadow:
     0 0 5px #00baff,
@@ -184,10 +184,10 @@ Error generating stack: `+o.message+`
     0 0 20px #00baff,
     0 0 40px #00baff,
     0 0 80px #00baff;
-`,xg=()=>z.jsx(wg,{children:z.jsx(Sg,{children:"404"})}),kg=Ne.div`
+`,kg=()=>z.jsx(Sg,{children:z.jsx(xg,{children:"404"})}),Eg=Ne.div`
   width: 100%;
   height: 100vh;
   background-image: url(${Ip});
   background-repeat: no-repeat;
   background-position: center bottom;
-`,Eg="";function Cg(){return console.log(Eg),z.jsx(kg,{children:z.jsx(Xh,{children:z.jsxs(wn,{path:"/",element:z.jsx(vv,{}),children:[z.jsx(wn,{path:"/first",element:z.jsx(dg,{})}),z.jsx(wn,{path:"/second",element:z.jsx(vg,{}),children:z.jsx(wn,{path:":half",element:z.jsx(yg,{})})}),z.jsx(wn,{path:"*",element:z.jsx(xg,{})})]})})})}Ml.createRoot(document.getElementById("root")).render(z.jsx(sn.StrictMode,{children:z.jsx(t0,{basename:"/react_vite",children:z.jsx(Cg,{})})}));
+`,Cg="";function Pg(){return console.log(Cg),z.jsx(Eg,{children:z.jsx(Xh,{children:z.jsxs(wn,{path:"/",element:z.jsx(vv,{}),children:[z.jsx(wn,{path:"/first",element:z.jsx(pg,{})}),z.jsx(wn,{path:"/second",element:z.jsx(gg,{}),children:z.jsx(wn,{path:":half",element:z.jsx(wg,{})})}),z.jsx(wn,{path:"*",element:z.jsx(kg,{})})]})})})}Ml.createRoot(document.getElementById("root")).render(z.jsx(sn.StrictMode,{children:z.jsx(t0,{basename:"/react_vite",children:z.jsx(Pg,{})})}));
