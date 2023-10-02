@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 .env
 
+# Pullrequests list
+pullrequest-list.txt
