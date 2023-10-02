@@ -113,7 +113,7 @@ Error generating stack: `+o.message+`
   justify-content: center;
   align-items: center;
   padding-top: 500px;
-`,fg=Ne.h1`
+`;Ne.h1`
   margin: 0;
   margin-right: 10px;
   color: #ffffff;
@@ -123,22 +123,22 @@ Error generating stack: `+o.message+`
     0 0 20px #00baff,
     0 0 40px #00baff,
     0 0 80px #00baff;
-`,dg=Ne.p`
+`;Ne.p`
   margin: 0;
   margin-right: 10px;
   color: red;
-`,pg=Ne.img`
+`;const fg=Ne.img`
   width: 40px;
   height: 40px;
   object-fit: cover;
-`,Ip="/react_vite/assets/example-def0f7cb.png",hg=()=>z.jsxs(cg,{children:[z.jsx(fg,{children:"First Page"}),z.jsx(dg,{children:"Extra description"}),z.jsx(pg,{src:Ip,alt:"Example"})]}),mg=Ne.div`
+`,Ip="/react_vite/assets/example-def0f7cb.png",dg=()=>z.jsx(cg,{children:z.jsx(fg,{src:Ip,alt:"Example"})}),pg=Ne.div`
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 500px;
-`,vg=Ne.div`
+`,hg=Ne.div`
   text-align: center;
-`,gg=Ne.h1`
+`;Ne.h1`
   color: #ffffff;
   text-shadow:
     0 0 5px #00baff,
@@ -146,7 +146,7 @@ Error generating stack: `+o.message+`
     0 0 20px #00baff,
     0 0 40px #00baff,
     0 0 80px #00baff;
-`,yg=Ne(Jc)`
+`;const mg=Ne(Jc)`
   padding: 8px 16px;
   color: #ffffff; /* White text color */
   text-shadow:
@@ -169,14 +169,14 @@ Error generating stack: `+o.message+`
       0 0 40px #00baff,
       0 0 80px #00baff;
   }
-`,wg=()=>z.jsx(mg,{children:z.jsxs(vg,{children:[z.jsx(gg,{children:"Second Page"}),z.jsx(yg,{to:"/second/5",children:"Half"})]})}),Sg=Ne.h1`
+`,vg=()=>z.jsx(pg,{children:z.jsx(hg,{children:z.jsx(mg,{to:"/second/5",children:"Half"})})}),gg=Ne.h1`
   color: #000000;
-`,xg=()=>z.jsx(Sg,{children:"Half Page"}),kg=Ne.div`
+`,yg=()=>z.jsx(gg,{children:"Half Page"}),wg=Ne.div`
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 500px;
-`,Eg=Ne.h1`
+`,Sg=Ne.h1`
   color: #ffffff;
   text-shadow:
     0 0 5px #00baff,
@@ -184,10 +184,10 @@ Error generating stack: `+o.message+`
     0 0 20px #00baff,
     0 0 40px #00baff,
     0 0 80px #00baff;
-`,Cg=()=>z.jsx(kg,{children:z.jsx(Eg,{children:"404"})}),Pg=Ne.div`
+`,xg=()=>z.jsx(wg,{children:z.jsx(Sg,{children:"404"})}),kg=Ne.div`
   width: 100%;
   height: 100vh;
   background-image: url(${Ip});
   background-repeat: no-repeat;
   background-position: center bottom;
-`,_g="";function $g(){return console.log(_g),z.jsx(Pg,{children:z.jsx(Xh,{children:z.jsxs(wn,{path:"/",element:z.jsx(vv,{}),children:[z.jsx(wn,{path:"/first",element:z.jsx(hg,{})}),z.jsx(wn,{path:"/second",element:z.jsx(wg,{}),children:z.jsx(wn,{path:":half",element:z.jsx(xg,{})})}),z.jsx(wn,{path:"*",element:z.jsx(Cg,{})})]})})})}Ml.createRoot(document.getElementById("root")).render(z.jsx(sn.StrictMode,{children:z.jsx(t0,{basename:"/react_vite",children:z.jsx($g,{})})}));
+`,Eg="";function Cg(){return console.log(Eg),z.jsx(kg,{children:z.jsx(Xh,{children:z.jsxs(wn,{path:"/",element:z.jsx(vv,{}),children:[z.jsx(wn,{path:"/first",element:z.jsx(dg,{})}),z.jsx(wn,{path:"/second",element:z.jsx(vg,{}),children:z.jsx(wn,{path:":half",element:z.jsx(yg,{})})}),z.jsx(wn,{path:"*",element:z.jsx(xg,{})})]})})})}Ml.createRoot(document.getElementById("root")).render(z.jsx(sn.StrictMode,{children:z.jsx(t0,{basename:"/react_vite",children:z.jsx(Cg,{})})}));
